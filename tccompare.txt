@@ -1,22 +1,18 @@
-[0] -> NULL
-[1] -> 2 -> 3 -> NULL
-[2] -> 1 -> 4 -> NULL
-[3] -> 1 -> 4 -> NULL
-[4] -> 2 -> 3 -> NULL
+  0 1 2
+0 1 0 0
+1 0 1 0 
+2 0 0 1
 ====================
-[1] -> 2 -> 3 -> NULL
-[2] -> 1 -> 4 -> 6 -> NULL
-[3] -> 1 -> 4 -> NULL
-[4] -> 2 -> 3 -> NULL
-[5] -> 3 -> NULL
-[6] -> NULL
+  0 1 2
+0 1 1 0
+1 0 1 1
+2 0 0 1 
 ====================
-[1] -> 2 -> 3 -> NULL
-[2] -> 4 -> 6 -> NULL
-[3] -> 1 -> 4 -> NULL
-[4] -> 3 -> NULL
-[5] -> 3 -> NULL
-[6] -> NULL
+  0 1 2 3
+0 1 0 0 0
+1 0 0 0 0
+2 0 0 0 0
+3 0 0 0 0
 ====================
-Maximum In-Degree  : Vertex 3 3
-Maximum Out-Degree : Vertex 1 2 
+Maximum In-Degree  : Vertex 0 1
+Maximum Out-Degree : Vertex 0 1
